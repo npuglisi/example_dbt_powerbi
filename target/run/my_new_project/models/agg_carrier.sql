@@ -1,9 +1,14 @@
-{{config(
-    materialized='table'
-)}}
+
+
+  create or replace table `loadsmart-354023`.`dbt_loadsmart`.`agg_carrier`
+  
+  
+  OPTIONS()
+  as (
+    
 
 SELECT carrier_name, 
-count(distinct loadsmart_id) as amount_trip,
+count(distinct loadsmart_id) as amount_ship,
 AVG(mileage) AS avg_miles, 
 max(mileage) as max_miles,
 sum(mileage) AS sum_miles, 
@@ -16,3 +21,5 @@ sum(case when carrier_on_time_overall is false then 1 else 0 end) as not_ontime
 FROM `loadsmart-354023.bd_loadsmart.table_test` 
 where carrier_name is not null
 group by carrier_name
+  );
+  

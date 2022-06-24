@@ -1,9 +1,7 @@
-{{config(
-    materialized='table'
-)}}
+
 
 SELECT carrier_name, 
-count(distinct loadsmart_id) as amount_trip,
+count(distinct loadsmart_id) as amount_ship,
 AVG(mileage) AS avg_miles, 
 max(mileage) as max_miles,
 sum(mileage) AS sum_miles, 
