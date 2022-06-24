@@ -163,3 +163,6 @@ order by 2 asc, 3
 
 #### After creating all my models, I have to run and compile them
 <img src="https://user-images.githubusercontent.com/39974597/175447259-68c94d1c-d8fa-4614-8232-3d0346a24506.png" width="600">
+
+
+#### Now I have all my new models on my BigQuery, and they are ready to be used in an Analytical Tool.
