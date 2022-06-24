@@ -165,5 +165,5 @@ order by 2 asc, 3
 <img src="https://user-images.githubusercontent.com/39974597/175447259-68c94d1c-d8fa-4614-8232-3d0346a24506.png" width="600">
 
 
-#### Now I have all my new models on my BigQuery, and they are ready to be used in an Analytical Tool.
+#### Now I have all my new tables on my BigQuery, and they are ready to be used in an Analytical Tool.
 <img src="https://user-images.githubusercontent.com/39974597/175447556-3b94f999-358e-4a50-a401-56a700226455.png" width="300">
