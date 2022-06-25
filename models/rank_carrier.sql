@@ -9,7 +9,7 @@ where carrier_name is not null
 group by equipment_type, carrier_name, lane
 )
 
-select query.lane, DENSE_RANK() OVER (PARTITION BY query.lane ORDER BY query.avg_diff_hour asc ) AS rank, query.carrier_name, query.avg_diff_hour
+select query.lane, DENSE_RANK() OVER (PARTITION BY query.lane ORDER BY query.avg_diff_hour asc ) AS rank, query.carrier_name
 from query
 inner join (select lane, count(lane) as amount from query group by 1 having count(lane) > 1) lanes on lanes.lane = query.lane 
 order by 2 asc, 3
