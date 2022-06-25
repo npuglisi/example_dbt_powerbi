@@ -3,7 +3,8 @@
 )}}
 
 SELECT carrier_name, 
-count(distinct loadsmart_id) as amount_trip,
+DATE_DIFF(MAX(pickup_date), MIN(pickup_date),DAY) as lifetime,
+count(distinct loadsmart_id) as amount_ship,
 AVG(mileage) AS avg_miles, 
 max(mileage) as max_miles,
 sum(mileage) AS sum_miles, 

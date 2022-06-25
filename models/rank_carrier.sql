@@ -4,7 +4,7 @@
 
 with query as (
 SELECT equipment_type, carrier_name, lane, avg(TIMESTAMP_DIFF(delivery_date, pickup_date, hour)) as avg_diff_hour
-FROM `loadsmart-354023.bd_loadsmart.table_test`
+FROM 'loadsmart-354023.bd_loadsmart.table_test'
 where carrier_name is not null
 group by equipment_type, carrier_name, lane
 )
