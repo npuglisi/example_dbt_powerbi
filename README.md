@@ -181,28 +181,28 @@ group by lane
 #### I pivot the dashboard in context as I did in queries.
 
 ### Lane - The idea is to understand the behavior of the carriers for each Lane.
-#### The List shows the rank of the best Carrier for each Lane, which means there are different performances between lanes, so not only is the price a helper decision, but the execution is too.
-#### Carrier by Lane - Indicating which lane had more carriers, there is a way to notice what lane is more searched. I think that is an excellent thing to recommend for new carriers, showing them what the lane more searched for the shippers is.
-#### AVG Price and Mile by Lane - The idea is to show each Lane's average mile and average price. In this analysis, I want to see if exists a difference between mile and price for some Lane, but as we can see in the visualization, the average mile follows the average price at the same proportions
+The List shows the rank of the best Carrier for each Lane, which means there are different performances between lanes, so not only is the price a helper decision, but the execution is too.
+Carrier by Lane - Indicating which lane had more carriers, there is a way to notice what lane is more searched. I think that is an excellent thing to recommend for new carriers, showing them what the lane more searched for the shippers is.
+AVG Price and Mile by Lane - The idea is to show each Lane's average mile and average price. In this analysis, I want to see if exists a difference between mile and price for some Lane, but as we can see in the visualization, the average mile follows the average price at the same proportions
 
-<img src="https://user-images.githubusercontent.com/39974597/176062206-6b674ddd-1f31-4a0d-9ac3-12139052af39.png" width="300">
+<img src="https://user-images.githubusercontent.com/39974597/176062206-6b674ddd-1f31-4a0d-9ac3-12139052af39.png" width="800">
 
 
 ### Equipment - The idea is to understand the behavior behind each equipment and how the carriers are using them.
-#### AVG Price and Mile by Equipment - That analysis shows some equipment had more average price than average miles, that means the RFR equipment costs more and has more miles, but doesn't mean that it is the most used, probably is an equipment used for long travels. Furthermore, we can tell the average price and average miles are proportional.
-#### Amount Travel by Equipment - This visualization shows what equipment is most popular and is probably used for quick travels.
-#### Amount Carrier by Equipment - This visualization shows which equipment is more used for carriers.
+AVG Price and Mile by Equipment - That analysis shows some equipment had more average price than average miles, that means the RFR equipment costs more and has more miles, but doesn't mean that it is the most used, probably is an equipment used for long travels. Furthermore, we can tell the average price and average miles are proportional.
+Amount Travel by Equipment - This visualization shows what equipment is most popular and is probably used for quick travels.
+Amount Carrier by Equipment - This visualization shows which equipment is more used for carriers.
 
-<img src="https://user-images.githubusercontent.com/39974597/176062175-141a6137-55cb-47c8-aec1-b60eab657c19.png" width="300">
+<img src="https://user-images.githubusercontent.com/39974597/176062175-141a6137-55cb-47c8-aec1-b60eab657c19.png" width="800">
 
 
 ### Carrier - My favorite one! This visualization is to understand the behavior behind Carriers. The most exciting thing to do in this dash is to choose one Carrier and then look where it is from each different card view.
-#### The list view is to understand how the carrier is with better performance and see which delivered on time and which one didn't. Also, I compare the performance with the lifetime per travel from each carrier. That way, I can tell how many deliveries each carrier does per day and how is their performance of them.
+The list view is to understand how the carrier is with better performance and see which delivered on time and which one didn't. Also, I compare the performance with the lifetime per travel from each carrier. That way, I can tell how many deliveries each carrier does per day and how is their performance of them.
 
-#### AVG Price and AVG Mile by Carrier - This visualization shows how the average price is, compared to average miles, but the result that I get is there is some Carrier that cost more than others, even with similar miles.
+AVG Price and AVG Mile by Carrier - This visualization shows how the average price is, compared to average miles, but the result that I get is there is some Carrier that cost more than others, even with similar miles.
 
-#### Traver per Lifetime and AVG Miles by Carrier - The idea is to understand how many miles each carrier has compared to how much travel they did per day. That way, I could see some carriers with a lot of miles but with a small lifetime, which means this carrier usually travels long.
+Traver per Lifetime and AVG Miles by Carrier - The idea is to understand how many miles each carrier has compared to how much travel they did per day. That way, I could see some carriers with a lot of miles but with a small lifetime, which means this carrier usually travels long.
 
-#### Sum Miler per Carrier - This visualization shows what carrier has more miles accumulated
+Sum Miler per Carrier - This visualization shows what carrier has more miles accumulated
 
-<img src="https://user-images.githubusercontent.com/39974597/176063141-5fbc50ff-b852-4d56-92a0-ca9f3a4d5422.png" width="300">
+<img src="https://user-images.githubusercontent.com/39974597/176063141-5fbc50ff-b852-4d56-92a0-ca9f3a4d5422.png" width="800">
