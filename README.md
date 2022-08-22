@@ -1,4 +1,5 @@
-### Nathália Puglisi
+# Welcome! 
+## This is an example about a simple Data Transformation using DBT and an Analytical Visualization using Power BI  
 
 ## Instructions BigQuery
 First of all, the CSV file needs some fixes. When I uploaded this file to my database, all the booleans columns came with a null value.
